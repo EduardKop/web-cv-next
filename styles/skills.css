@@ -1,13 +1,20 @@
 @font-face {
-    font-family: 'M PLUS Rounded 1c bold';
-    src: local('M PLUS Rounded 1c bold'), url(../font/MPLUSRounded1c-Bold.ttf) format('woff');
-    font-family: 'M PLUS Rounded 1c regular';
-    src: local('M PLUS Rounded 1c regular'), url(../font/MPLUSRounded1c-Regular.ttf) format('woff');
-  
+    font-family: 'M-PLUS-Rounded-1cRegular';
+    src: url("../font/MPLUSRounded1c-Regular.ttf") ;
+    font-style: regular;
+    font-display: swap;
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'M-PLUS-Rounded-1cBold';
+    src: url("../font/MPLUSRounded1c-Bold.ttf") ;
+    font-style: regular;
+    font-display: swap;
+    font-weight: 300;
   }
 .skills-wrapper{
 margin-top: 20px;
-font-family: 'M PLUS Rounded 1c bold';
+font-family: 'M-PLUS-Rounded-1cBold';
 
 }
 @media(max-width: 700px){ 
@@ -33,14 +40,14 @@ font-family: 'M PLUS Rounded 1c bold';
 }
 .skills-discription{
   margin-top: 20px;
-  font-family: 'M PLUS Rounded 1c regular';
+  font-family: 'M-PLUS-Rounded-1cRegular';
 
 }
 
 .skills-props-container{
     display: flex;
     flex-direction: row;
-    font-family: 'M PLUS Rounded 1c regular';
+    font-family: 'M-PLUS-Rounded-1cRegular';
     
     margin-bottom: 30px;
 }  
@@ -77,7 +84,7 @@ font-family: 'M PLUS Rounded 1c bold';
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: 'M PLUS Rounded 1c bold';
+    font-family: 'M-PLUS-Rounded-1cBold';
 
 }
 .skills-content-title img{

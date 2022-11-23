@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
 @font-face {
-  font-family: 'MyFont';
-  src: local('MyFont'), url(../font/19894.ttf) format('woff');
-  font-family: 'M PLUS Rounded 1c bold';
-  src: local('M PLUS Rounded 1c bold'), url(../font/MPLUSRounded1c-Bold.ttf) format('woff');
-
+    font-family: 'M-PLUS-Rounded-1cRegular';
+    src: url("../font/MPLUSRounded1c-Regular.ttf") ;
+    font-style: regular;
+    font-display: swap;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'M-PLUS-Rounded-1cBold';
+    src: url("../font/MPLUSRounded1c-Bold.ttf") ;
+    font-style: regular;
+    font-display: swap;
+    font-weight: 300;
 }
 @media screen  and (max-width: 600px){
     .contacts-container{
@@ -13,13 +19,16 @@
 }
 .contacts-container{
  
-  
+    font-family: 'M-PLUS-Rounded-1cRegular';
+
 }
 .contacts-wrap span{
     font-weight: 700;
     font-size: 20px;
     border-bottom: 3px solid ;
     border-radius: 2px;
+    font-family: 'M-PLUS-Rounded-1cBold';
+
   }
 .contacts{
    

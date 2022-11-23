@@ -1,17 +1,24 @@
 @font-face {
-    font-family: 'M PLUS Rounded 1c bold';
-    src: local('M PLUS Rounded 1c bold'), url(../font/MPLUSRounded1c-Bold.ttf) format('woff');
-    font-family: 'M PLUS Rounded 1c regular';
-    src: local('M PLUS Rounded 1c regular'), url(../font/MPLUSRounded1c-Regular.ttf) format('woff');
-  
-  }
+    font-family: 'M-PLUS-Rounded-1cRegular';
+    src: url("../font/MPLUSRounded1c-Regular.ttf") ;
+    font-style: regular;
+    font-display: swap;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'M-PLUS-Rounded-1cBold';
+    src: url("../font/MPLUSRounded1c-Bold.ttf") ;
+    font-style: regular;
+    font-display: swap;
+    font-weight: 300;
+}
 .expirience-props-container{
     padding-top: 100px;
     max-width: 605px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-family: 'M PLUS Rounded 1c regular';
+    font-family: 'M-PLUS-Rounded-1cRegular';
 
 }
 .expirience-props-element{
