@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+@media screen  and (max-width: 900px){
+  .profile-info_navigation{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+  }  
+  .profile-info_navigation li{
+    margin-left: 5px;
+  }
+}
+
+@media screen  and (min-width: 900px){
+  
+  .navigation_item {
+    padding: 10px;
+    
+  }
+}
+
+.profile-photo img{
+  width: 115px;
+  height: 115px;
+
+}
+
+.profile-container{
+  margin-top: 40px;
+  display: flex;
+  align-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.profile-info_name{
+  font-family: 'M PLUS Rounded 1c';
+  
+    font-size: 40px;
+    font-weight: bold;
+    
+
+}
+@media (max-width: 577px) { 
+  .profile-info_name{
+    max-width: 240px;
+  }
+  .profile-container{
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+.profile-info_prof{
+    font-family: 'MyFont';
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.divItem{
+    display: contents;
+    color:#DE6B75
+}
+.secondDivItem{
+    display: contents;
+    color:#DE6B75
+}
+
+
+
+
+
+:root {
+    --bg-color: hsl(0, 0%, 100%);
+    --typewriterSpeed: 6s;
+    --typewriterCharacters: 24;
+  }
+  
+  
+  
+  .profile-info_prof span {
+  
+    position: relative;
+    width: max-content;
+  }
+  
+  .profile-info_prof span::before,
+  .profile-info_prof span::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .profile-info_prof span::before {
+    background: var(--bg-color);
+    animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards;
+  }
+  
+ .profile-info_prof span::after {
+    width: 0.125em;
+    background: black;
+    animation: typewriter var(--typewriterSpeed)
+        steps(var(--typewriterCharacters)) 1s forwards,
+      blink 750ms steps(var(--typewriterCharacters)) infinite;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'M PLUS Rounded 1c';
+    opacity: 0;
+    margin-top:2px;
+    /* transform: translateY(3rem); */
+    animation: fadeInUp 0.5s  forwards;
+    /* animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards; */
+
+  }
+  
+  @keyframes typewriter {
+    to {
+      left: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    to {
+      background: transparent;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  #yt-link {
+    position: absolute;
+    bottom: 2em;
+    width: 100%;
+    color: hsl(0 0 0 / 0.7);
+  }
+  
+  .profile-photo{
+  }
+
+  

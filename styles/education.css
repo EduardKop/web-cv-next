@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+
+@media screen  and (min-width: 700px){
+    .bio-content{
+    }    
+}
+
+.bio-content{
+    font-family: 'M PLUS Rounded 1c';
+    
+
+}
+.bio-container{
+}
+.bio-content-item{
+}
+.bio-content-title span{
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 3px solid ;
+    border-radius: 2px;
+}
+.bio-content-item:nth-child(1){
+    margin-top: 0px;}
+
+.bio-line{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+.bio-detail{
+    margin-left: 10px;
+}
+.bio-year span{
+    font-weight: 900;
+}
+.bio-content p{
+margin-top: 5px;
+line-height: 18px;
+}
+.bio-lines{
+    margin-bottom: 30px;
+}
+.hobbie-detail {
+
+}
+.hobbie-wrap{
+    margin-top: 20px;
+    margin-left: 10px;
+}

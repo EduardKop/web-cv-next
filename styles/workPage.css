@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+.expirience-props-container{
+    padding-top: 100px;
+    max-width: 605px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+.expirience-props-element{
+    min-width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 16px;
+    transition: all 0.1s ease-in-out;
+
+
+}
+.expirience-props-element:hover{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+}
+
+.expirience-container-img img{
+    width: 250px;
+    height: 140px;
+    border-radius: 16px;
+}
+
+.expirience-container-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+.container__item-linkContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 2px;
+
+}
+
+.container__item-stackContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:5px;
+
+}
+.container__item-nameContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.expirience-container-img--discription{
+    max-width: 250px;
+    margin-top: 10px;
+}
+.container__item-webContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
+
+}
+
+
+
+.links{
+    display: flex;
+    justify-content:center;
+    margin-top: 5px;
+}

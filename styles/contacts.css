@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(../font/19894.ttf) format('woff');
+}
+@media screen  and (max-width: 600px){
+    .contacts-container{
+        margin-top: 15px;
+    }
+}
+.contacts-container{
+  font-family: 'M PLUS Rounded 1c';
+  
+}
+.contacts-wrap span{
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 3px solid ;
+    border-radius: 2px;
+  }
+.contacts{
+    font-family: 'M PLUS Rounded 1c';
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.contacts-item{
+    margin-top: 25px;
+    margin-left: 10px;
+    
+}
+.contacts-item a{
+    border-radius: 10px;
+    padding: 5px;
+    transition: 200ms ease;
+
+}
+.contacts-item a:hover{
+    background-color: #E6FFFB;
+    color: black;
+}
+.contacts-item span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.first{
+    margin-top: 30px;
+    padding: 0px;
+}
