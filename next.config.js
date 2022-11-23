@@ -3,6 +3,7 @@
 
 const nextConfig = {
   reactStrictMode: true,
+  optimizeFonts: false,
   // images: {
   //   loader: "akamai",
   //   path: "./img",
