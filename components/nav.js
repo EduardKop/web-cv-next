@@ -250,7 +250,7 @@ function Nav() {
             </li>
 
             <li>
-                <a rel="noreferrer"  href="https://github.com/EduardKop/cv2.0" target="_blank" className="navigation_item-source">
+                <a rel="noreferrer"  href="https://github.com/EduardKop/web-cv-next" target="_blank" className="navigation_item-source">
                     <div className='navigation_item navigation_item-source'>
                     <Image 
                       src={headerIconGit}
