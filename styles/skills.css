@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
-
+@font-face {
+    font-family: 'M PLUS Rounded 1c bold';
+    src: local('M PLUS Rounded 1c bold'), url(../font/MPLUSRounded1c-Bold.ttf) format('woff');
+    font-family: 'M PLUS Rounded 1c regular';
+    src: local('M PLUS Rounded 1c regular'), url(../font/MPLUSRounded1c-Regular.ttf) format('woff');
+  
+  }
 .skills-wrapper{
-  font-family: 'M PLUS Rounded 1c';
 margin-top: 20px;
+font-family: 'M PLUS Rounded 1c bold';
+
 }
 @media(max-width: 700px){ 
  
@@ -27,14 +33,14 @@ margin-top: 20px;
 }
 .skills-discription{
   margin-top: 20px;
-  font-family: 'M PLUS Rounded 1c';
+  font-family: 'M PLUS Rounded 1c regular';
 
 }
 
 .skills-props-container{
     display: flex;
     flex-direction: row;
-    font-family: 'M PLUS Rounded 1c';
+    font-family: 'M PLUS Rounded 1c regular';
     
     margin-bottom: 30px;
 }  
@@ -71,6 +77,8 @@ margin-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: 'M PLUS Rounded 1c bold';
+
 }
 .skills-content-title img{
     max-width: 33px;

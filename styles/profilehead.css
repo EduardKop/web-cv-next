@@ -1,5 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@font-face {
+  font-family: 'M PLUS Rounded 1c bold';
+  src: local('M PLUS Rounded 1c bold'), url(../font/MPLUSRounded1c-Bold.ttf) format('woff');
+  font-family: 'M PLUS Rounded 1c regular';
+  src: local('M PLUS Rounded 1c regular'), url(../font/MPLUSRounded1c-Regular.ttf) format('woff');
 
+}
 @media screen  and (max-width: 900px){
   .profile-info_navigation{
     display: flex;
@@ -35,7 +40,7 @@
 }
 
 .profile-info_name{
-  font-family: 'M PLUS Rounded 1c';
+  font-family: 'M PLUS Rounded 1c bold';
   
     font-size: 40px;
     font-weight: bold;
@@ -54,7 +59,6 @@
   }
 }
 .profile-info_prof{
-    font-family: 'MyFont';
     font-size: 15px;
     margin-bottom: 10px;
 }
@@ -113,7 +117,7 @@
   .subtitle {
     font-size: 1.1rem;
     font-weight: 400;
-    font-family: 'M PLUS Rounded 1c';
+    font-family: 'M PLUS Rounded 1c regular';
     opacity: 0;
     margin-top:2px;
     /* transform: translateY(3rem); */

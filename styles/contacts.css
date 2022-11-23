@@ -2,6 +2,9 @@
 @font-face {
   font-family: 'MyFont';
   src: local('MyFont'), url(../font/19894.ttf) format('woff');
+  font-family: 'M PLUS Rounded 1c bold';
+  src: local('M PLUS Rounded 1c bold'), url(../font/MPLUSRounded1c-Bold.ttf) format('woff');
+
 }
 @media screen  and (max-width: 600px){
     .contacts-container{
@@ -9,7 +12,7 @@
     }
 }
 .contacts-container{
-  font-family: 'M PLUS Rounded 1c';
+ 
   
 }
 .contacts-wrap span{
@@ -19,7 +22,7 @@
     border-radius: 2px;
   }
 .contacts{
-    font-family: 'M PLUS Rounded 1c';
+   
     margin-top: 30px;
     margin-bottom: 50px;
 }

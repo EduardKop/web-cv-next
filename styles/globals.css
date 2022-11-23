@@ -1,11 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+@font-face {
+  font-family: 'M PLUS Rounded 1c bold';
+  src: local('M PLUS Rounded 1c bold'), url(../font/MPLUSRounded1c-Bold.ttf) format('woff');
+  font-family: 'M PLUS Rounded 1c regular';
+  src: local('M PLUS Rounded 1c regular'), url(../font/MPLUSRounded1c-Regular.ttf) format('woff');
 
-body {
-  /* background-color: #F1E7DC; */
-  font-family: 'M PLUS Rounded 1c';
+}
 
-  }
   .wrapper{
     display: flex;
     justify-content: center;
@@ -26,7 +27,6 @@ body {
   .navigation-nav{
       width: 750px;
       display: flex;
-      font-family: 'M PLUS Rounded 1c';
 
   }
   .nav-Name{
@@ -35,13 +35,7 @@ body {
     align-content: center;
     align-items: center;
   }
-  .navigation_item-first{
-      font-weight: 700;
-      display: flex;
-      flex-direction: row;
-      align-content: center;
-      align-items: center;
-  }
+  
   
   .navigation_item-first img{
       margin-right:2px;
@@ -51,13 +45,9 @@ body {
       transform: rotate(15deg);
      
   }
-  .navigation_item-first:hover{
-  }
+ 
   .navigation_item {
       border: none;
-      font-family: 'M PLUS Rounded 1c';
-    
-    
       background-color: transparent;
     }
     .navigation_item{
@@ -65,9 +55,10 @@ body {
       -moz-transition: 0.5s ;
       -o-transition: 0.5s ;
       transition: 0.5s ;  
+      
+
     }
     .navigation_item-skills{
-
     }
     .navigation_item-skills:hover{
       color: #1A202C;
@@ -100,7 +91,8 @@ body {
   
   .navigation_item {
       display: flex;
-      
+      font-family: 'M PLUS Rounded 1c regular';
+
   }
   .wrapper-nav{
       display: flex;
@@ -141,3 +133,11 @@ body {
       display: flex;
       flex-direction: row;
   }
+  .navigation_item-first{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    font-family: 'M PLUS Rounded 1c bold';
+
+}

@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
-
+@font-face {
+    font-family: 'M PLUS Rounded 1c bold';
+    src: local('M PLUS Rounded 1c bold'), url(../font/MPLUSRounded1c-Bold.ttf) format('woff');
+    font-family: 'M PLUS Rounded 1c regular';
+    src: local('M PLUS Rounded 1c regular'), url(../font/MPLUSRounded1c-Regular.ttf) format('woff');
+  
+  }
 .expirience-props-container{
     padding-top: 100px;
     max-width: 605px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'M PLUS Rounded 1c regular';
 
 }
 .expirience-props-element{
