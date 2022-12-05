@@ -9,12 +9,24 @@ import GitHubScrapAPIapp from '../img/6.png'
 import Kaeltetechnik from '../img/4.png'
 import MonzaMotorsports from '../img/7.jpg'
 import SnakeGame from '../img/8.jpg'
-
+import SecretSanta from '../img/9.png'
 
 function ExpirienceContainer () {
     return (
     <div className='wrapper'>
         <div className='expirience-props-container'>
+        <div className='expirience-props-element'>
+            <WorkConstructor stack={'Next.js, Firebase'}
+                        img={SecretSanta}
+                        name={'Secret Santa'}
+                        link={'https://github.com/EduardKop/SecretSanta'}
+                        linkName={'link'}
+                        pageHref={'https://secret-santa-topaz-six.vercel.app/'}
+                        PageLinkName={'link'}
+                        pageName={'Page:'}
+                        /> 
+                        
+                </div>
         <div className='expirience-props-element'>
             <WorkConstructor stack={'React.js, Node.js'}
                         img={WeatherAPIapp}
