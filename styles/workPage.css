@@ -19,7 +19,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     font-family: 'M-PLUS-Rounded-1cRegular';
+}
+@media (max-width: 579px) { 
+    .expirience-props-container{
 
+    padding-top: 100px;
+    max-width: 605px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'M-PLUS-Rounded-1cRegular';
+    }
 }
 .expirience-props-element{
     min-width: 250px;
