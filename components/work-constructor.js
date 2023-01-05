@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 
 function WorkConstructor ({name,stack,img,link,linkName,pageHref,webName,PageLinkName,pageName}) {
-
+    const technologies = stack.split(', '); // Split the stack string into an array of technologies
     return (
         <div className='expirience-container'>
             <div className='expirience-container__item'>
@@ -28,9 +28,11 @@ function WorkConstructor ({name,stack,img,link,linkName,pageHref,webName,PageLin
                 </div>   
             </div>
             
-                <div className='container__item-stackContainer'>
-            {stack} 
-                </div>   
+            <div className='container__item-stackContainer'>
+                {technologies.map(tech => (
+                <div className={`card card-${tech}`}>{tech}</div>
+                ))}
+            </div>
             </div>
             </div>
 

@@ -72,6 +72,9 @@ function Skills  () {
                     Styled Component React 
                 </div>
                 <div className="content-discriptions-elem">
+                    Redux   
+                </div>
+                <div className="content-discriptions-elem">
                     Redux Toolkit  
                 </div>
                 <div className="content-discriptions-elem">

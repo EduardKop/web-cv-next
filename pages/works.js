@@ -12,11 +12,13 @@ import SnakeGame from '../img/8.jpg'
 import SecretSanta from '../img/9.png'
 
 function ExpirienceContainer () {
+    
     return (
     <div className='wrapper'>
         <div className='expirience-props-container'>
         <div className='expirience-props-element'>
-            <WorkConstructor stack={'Next.js, Firebase'}
+            <WorkConstructor 
+                        stack={'Next, Firebase'}
                         img={SecretSanta}
                         name={'Secret Santa'}
                         link={'https://github.com/EduardKop/SecretSanta'}
@@ -28,7 +30,7 @@ function ExpirienceContainer () {
                         
                 </div>
         <div className='expirience-props-element'>
-            <WorkConstructor stack={'React.js, Node.js'}
+            <WorkConstructor stack={'React, Node'}
                         img={WeatherAPIapp}
                         name={'Weather API app'}
                         link={'https://github.com/EduardKop/WeatherAPI-app'}
@@ -41,7 +43,7 @@ function ExpirienceContainer () {
                 </div>
 
                 <div className='expirience-props-element'>
-            <WorkConstructor stack={'React.js,Node.js'}
+            <WorkConstructor stack={'React, Node'}
                         img={GitHubScrapAPIapp}
                         link={'https://github.com/EduardKop/github-scraping'}
                         linkName={'link'}
@@ -61,7 +63,7 @@ function ExpirienceContainer () {
                         /> 
                 </div> */}
                 <div className='expirience-props-element'>
-            <WorkConstructor stack={'React.js,Bootstrap'}
+            <WorkConstructor stack={'React , Bootstrap'}
                         img={EnglishAppProjectImg}
                         link={'https://github.com/EduardKop/EnglishDictionaryApp'}
                         linkName={'link'}
@@ -69,7 +71,7 @@ function ExpirienceContainer () {
                         /> 
                 </div>
                 <div className='expirience-props-element'>
-            <WorkConstructor stack={'HTML/CSS'}
+            <WorkConstructor stack={'HTML·CSS'}
                         img={AgencyWebAppProgectImg}
                         link={'https://github.com/EduardKop/agencyWeb'}
                         linkName={'link'}
@@ -80,7 +82,7 @@ function ExpirienceContainer () {
                         /> 
                 </div>
                 <div className='expirience-props-element'>
-            <WorkConstructor stack={'HTML/SCSS,Bootstrap'}
+            <WorkConstructor stack={'HTML·CSS, Sass, Bootstrap'}
                         img={Kaeltetechnik}
                         link={'https://github.com/EduardKop/K-ltemaschine-web'}
                         linkName={'link'}
@@ -92,7 +94,7 @@ function ExpirienceContainer () {
                         /> 
                 </div>
                 <div className='expirience-props-element'>
-            <WorkConstructor stack={'HTML/SCSS,Bootstrap'}
+            <WorkConstructor stack={'HTML·CSS, Sass, Bootstrap'}
                         img={SnakeGame}
                         link={'https://github.com/EduardKop/snake-game'}
                         linkName={'link'}
@@ -104,7 +106,7 @@ function ExpirienceContainer () {
                         /> 
                 </div>
                 <div className='expirience-props-element'>
-            <WorkConstructor stack={'HTML/CSS,JS'}
+            <WorkConstructor stack={'HTML·CSS, Sass, Bootstrap'}
                         img={MonzaMotorsports}
                         link={'https://github.com/EduardKop/Monza-Motorsports-'}
                         linkName={'link'}

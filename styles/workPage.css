@@ -74,6 +74,81 @@
     margin-top:5px;
 
 }
+.card {
+    display: inline-block;
+    padding: 3px 7px;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .card-Next {
+    background: rgb(8,16,22);
+    background: linear-gradient(90deg, rgba(8,16,22,1) 0%, rgba(73,73,73,1) 100%);
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+    color: #EBF3FF;
+
+  }
+  .card-Node {
+    background: rgb(19,107,19);
+    background: linear-gradient(0deg, rgba(19,107,19,1) 0%, rgba(117,215,77,0.774969362745098) 100%);
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+    color: #D7FBC6;
+
+  }
+
+  .card-React {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+    color: #284086;
+
+  }
+  .card-Bootstrap{
+    background: rgb(107,17,237);
+background: linear-gradient(0deg, rgba(107,17,237,1) 0%, rgba(173,115,255,1) 100%);
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+    color:#F0E6FE
+  }
+
+  .card-Firebase {
+    background: rgb(217,100,0);
+    background: linear-gradient(0deg, rgba(217,100,0,1) 0%, rgba(255,204,55,1) 100%);
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+    color:#5E3511
+  }
+  
+  .card-HTML·CSS{
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+    color:#5E371E
+  }
+  .card-Sass{
+    background: rgb(223,137,179);
+    background: -moz-linear-gradient(90deg, rgba(223,137,179,0.7497592787114846) 0%, rgba(233,151,192,0.774969362745098) 46%, rgba(230,107,166,0.7833727240896359) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(223,137,179,0.7497592787114846) 0%, rgba(233,151,192,0.774969362745098) 46%, rgba(230,107,166,0.7833727240896359) 100%);
+    background: linear-gradient(90deg, rgba(223,137,179,0.7497592787114846) 0%, rgba(233,151,192,0.774969362745098) 46%, rgba(230,107,166,0.7833727240896359) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#df89b3",endColorstr="#e66ba6",GradientType=1);
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+    color:#3B1E2C
+  }
+
 .container__item-nameContainer{
     display: flex;
     flex-direction: row;
