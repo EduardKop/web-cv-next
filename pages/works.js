@@ -74,9 +74,7 @@ function ExpirienceContainer () {
                         link={'https://github.com/EduardKop/agencyWeb'}
                         linkName={'link'}
                         name={'Creative Agency Web'}
-                        pageHref={'https://eduardkop.github.io/agencyWeb/'}
-                        PageLinkName={'link'}
-                        pageName={'Page:'}
+                        
 
 
                         /> 
@@ -98,7 +96,7 @@ function ExpirienceContainer () {
                         img={SnakeGame}
                         link={'https://github.com/EduardKop/snake-game'}
                         linkName={'link'}
-                        name={'Monza-Motorsports'}
+                        name={'Snake-Game'}
                         pageHref={'https://eduardkop.github.io/snake-game/'}
                         webName={'githubPages:'}
                         PageLinkName={'link'}
@@ -110,7 +108,7 @@ function ExpirienceContainer () {
                         img={MonzaMotorsports}
                         link={'https://github.com/EduardKop/Monza-Motorsports-'}
                         linkName={'link'}
-                        name={'Snake-Game'}
+                        name={'Monza-Motorsports'}
                         pageHref={'https://eduardkop.github.io/Monza-Motorsports-/'}
                         webName={'githubPages:'}
                         PageLinkName={'link'}
