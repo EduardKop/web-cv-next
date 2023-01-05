@@ -79,6 +79,7 @@
     padding: 3px 7px;
     border-radius: 4px;
     margin-right: 5px;
+    font-size: 14px;
   }
   
   .card-Next {
@@ -86,7 +87,7 @@
     background: linear-gradient(90deg, rgba(8,16,22,1) 0%, rgba(73,73,73,1) 100%);
 
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    
+    font-size: 14px;
     color: #EBF3FF;
 
   }
@@ -95,7 +96,7 @@
     background: linear-gradient(0deg, rgba(19,107,19,1) 0%, rgba(117,215,77,0.774969362745098) 100%);
 
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    
+    font-size: 14px;
     color: #D7FBC6;
 
   }
@@ -104,7 +105,7 @@
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     
-
+    font-size: 14px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     
     color: #284086;
@@ -115,7 +116,7 @@
 background: linear-gradient(0deg, rgba(107,17,237,1) 0%, rgba(173,115,255,1) 100%);
 
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-
+    font-size: 14px;
     color:#F0E6FE
   }
 
@@ -124,7 +125,7 @@ background: linear-gradient(0deg, rgba(107,17,237,1) 0%, rgba(173,115,255,1) 100
     background: linear-gradient(0deg, rgba(217,100,0,1) 0%, rgba(255,204,55,1) 100%);
 
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-
+    font-size: 14px;
     color:#5E3511
   }
   
@@ -134,7 +135,7 @@ background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
 
 
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-
+    font-size: 14px;
     color:#5E371E
   }
   .card-Sass{
@@ -145,7 +146,7 @@ background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#df89b3",endColorstr="#e66ba6",GradientType=1);
 
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-
+    font-size: 14px;
     color:#3B1E2C
   }
 
