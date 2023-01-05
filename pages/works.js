@@ -63,14 +63,9 @@ function ExpirienceContainer () {
                 <div className='expirience-props-element'>
             <WorkConstructor stack={'React.js,Bootstrap'}
                         img={EnglishAppProjectImg}
-                        link={'https://github.com/EduardKop/agencyWeb'}
+                        link={'https://github.com/EduardKop/EnglishDictionaryApp'}
                         linkName={'link'}
                         name={'English Dictionary App'}
-                        pageHref={'https://eduardkop.github.io/agencyWeb/'}
-                        webName={'githubPages:'}
-                        PageLinkName={'link'}
-                        pageName={'Page:'}
-
                         /> 
                 </div>
                 <div className='expirience-props-element'>
