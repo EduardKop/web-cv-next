@@ -52,14 +52,14 @@ function ExpirienceContainer () {
 
                         /> 
                 </div>
-                <div className='expirience-props-element'>
+                {/* <div className='expirience-props-element'>
             <WorkConstructor stack={'Telegraph,Telegram API,Node.js'}
                         img={TelegrafBotProjectImg}
                         link={'https://github.com/EduardKop/telegramBot-telegraf-talking-bot'}
                         linkName={'link'}
                         name={'Telegram Bot (talking bot)'}
                         /> 
-                </div>
+                </div> */}
                 <div className='expirience-props-element'>
             <WorkConstructor stack={'React.js,Bootstrap'}
                         img={EnglishAppProjectImg}
