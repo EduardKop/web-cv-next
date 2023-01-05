@@ -29,9 +29,9 @@ function WorkConstructor ({name,stack,img,link,linkName,pageHref,webName,PageLin
             </div>
             
             <div className='container__item-stackContainer'>
-                {technologies.map(tech => (
-                <div className={`card card-${tech}`}>{tech}</div>
-                ))}
+            {technologies.map((tech, index) => (
+  <div key={index} className={`card card-${tech}`}>{tech}</div>
+))}
             </div>
             </div>
             </div>
