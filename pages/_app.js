@@ -8,7 +8,8 @@ import '../styles/reset.css'
 import '../styles/workPage.css'
 import Nav from '../components/nav'
 
-function MyApp({ Component, pageProps }) {
+
+function MyApp({ Component, pageProps}) {
   return(
     <>
   <Nav />

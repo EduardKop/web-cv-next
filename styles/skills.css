@@ -90,6 +90,9 @@ font-family: 'M-PLUS-Rounded-1cBold';
 .skills-content-title img{
     max-width: 33px;
     margin-left: 3px;
+    min-height: 20px;
+    max-height: 20px;
+
 }
 .skills-wrapper-container{
     

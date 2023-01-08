@@ -248,7 +248,14 @@ function Nav() {
                 </span>
                 </Link>
             </li>
+            <li  className="navigation_item-expirience" >
+            <Link href="/cv.pdf" as="/cv.pdf">
+            <span className='navigation_item'>
+                Resume
+                </span>
+          </Link>
 
+            </li>
             <li>
                 <a rel="noreferrer"  href="https://github.com/EduardKop/web-cv-next" target="_blank" className="navigation_item-source">
                     <div className='navigation_item navigation_item-source'>
@@ -262,7 +269,7 @@ function Nav() {
                     </div> 
                 </a>
             </li>
-
+          
         </ul>
         </nav>
         <ThemeProvider theme={themeMode}>
