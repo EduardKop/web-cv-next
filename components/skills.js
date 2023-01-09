@@ -21,7 +21,7 @@ function SkillsContainer (){
             </div>
             <div className="skills-slide-wrapper">
                 <div className="skills-title">
-                    <span>Profile</span>
+                    <span>Skills</span>
                 </div>
             <Skills />
             </div>

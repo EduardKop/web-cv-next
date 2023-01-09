@@ -12,7 +12,7 @@ const TypedTerminal = () => {
   const learningNow = 
   [`<span class="string">Docker</string><span class="white">,</string><span class="string">MongoDB</string>`]
   const planToTeach = 
-  [`<span class="string">Vue</string><span class="white">,</string><span class="string">NestJS</string>`]
+  [`<span class="string">Vue</string>`]
   React.useEffect(() => {
     const options = {
       strings: [

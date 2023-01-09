@@ -249,7 +249,7 @@ function Nav() {
                 </Link>
             </li>
             <li  className="navigation_item-expirience" >
-            <Link href="/cv.pdf" as="/cv.pdf">
+            <Link href="/myCV.pdf" as="/myCV.pdf">
             <span className='navigation_item'>
                 Resume
                 </span>
