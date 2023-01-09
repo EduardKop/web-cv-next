@@ -6,13 +6,31 @@ const TypedTerminal = () => {
 	const el = React.useRef(null);
   // Create reference to store the Typed instance itself
 	const typed = React.useRef(null);
-
+  const usingArr = 
+  [`<span class="string">JS</string><span class="white">,</string><span class="string">React</string><span class="white">,</string><span class="string">Redux</string><span class="white">,</string><span class="string">NEXT.js</string><span class="white">,</string><span class="string">HTML/CSS</string><span class="white">,</string><span class="string">Sass/Less</string><span class="white">,</string><span class="string">Flex/Grid</string><span class="white">,</string>
+    <span class="string">Firebase</string><span class="white">,</string><span class="string">NodeJS</string>`]
+  const learningNow = 
+  [`<span class="string">Docker</string><span class="white">,</string><span class="string">MongoDB</string>`]
+  const planToTeach = 
+  [`<span class="string">Vue</string><span class="white">,</string><span class="string">NestJS</string>`]
   React.useEffect(() => {
     const options = {
-    	strings:['npm <span class="text">i next react reat-dom typescript</span>^1000\n `installing components...` ^1000\n `Installing packages....`^1000\n`Success!`^1000\n`Happy hacking!`^1000\nnpm <span class="text">i -D eslint eslint-config-next prettier</span>^1000\n`Success!`^1000\nnpm <span class="text">npm i --save-dev @babel/core @babel/cli @babel/node</span>^1000\n`Success!`^1000\nnpm <span class="text">i redux react-redux prop-types</span>^1000\n`🚀`^1000\n'],
-      typeSpeed: 40,
+      strings: [
+        '<span class="const">const</span> <span class="variable">aboutMe</span> <span class="const">= {</span>\n' +
+        '  name: <span class="string">\'Eduard Koryntyk\'</span><span class="white">,</string>\n' +
+        '  age: <span class="number">25</span><span class="white">,</string>\n' +
+        '  education: <span class="string">\'Computer Engineering TNEU\'</span><span class="white">,</string>\n' +
+        '  skills: <span class="const">{</span>\n' +
+        '    using: <span class="arr"><span class="arr">[</span>'+usingArr+'<span class="arr">]</span></span><span class="white">,</string>\n' +
+        '    learningNow: <span class="arr"><span class="arr">[</span>'+learningNow+'<span class="arr">]</span></span><span class="white">,</string>\n' +
+        '    planToTeach: <span class="arr"><span class="arr">[</span>'+planToTeach+'<span class="arr">]</span></span><span class="white">,</string>\n' +
+        '  <span class="parentheses">}</span><span class="white">,</string>\n' +
+        '<span class="const">}</span>;\n' 
+      ],
+      typeSpeed: 30,
       backSpeed: 0,
-      loop: true
+      loop: true,
+      backDelay: 5000, // This will cause a 2 second delay before the next loop
     };
     
     // elRef refers to the <span> rendered below
@@ -54,3 +72,5 @@ const TypedTerminal = () => {
 
 
 export default TypedTerminal
+
+

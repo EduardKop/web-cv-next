@@ -90,7 +90,26 @@ border: 1px solid rgba(38, 38, 38, 0.3);
  .startSimbol{
     color: #74DF74;
  }
- .text{
+ .parentheses{
     color: #2CB3F3;
-
  }
+ .variable{
+  color: #FF468D;
+}
+.const{
+  color: #A95EFF;
+
+}
+.string{
+  color:#43DD76
+}
+.number{
+  color:#FF7035
+}
+
+.arr{
+  color:#28A9FF
+}
+.white{
+  color:white
+}
