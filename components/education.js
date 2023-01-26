@@ -36,6 +36,15 @@ return (
 
             <div className='bio-line'>
                 <div className='bio-year'>
+                <span>2019</span>
+                </div>
+                <div className='bio-detail'>
+                <span>&apos;Front-End course&apos; Main Academy</span>
+                </div>
+            </div>
+
+            <div className='bio-line'>
+                <div className='bio-year'>
                 <span>2022</span>
                 </div>
                 <div className='bio-detail'>

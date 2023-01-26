@@ -100,7 +100,14 @@
     color: #D7FBC6;
 
   }
+  .card-Cloudflare {
+    background-color: #fd7f48;
+background-image: linear-gradient(62deg, #fd7f48 0%, #ffd15a 99%);
 
+    
+    font-size: 14px;
+    color: #5E3511;
+  }
   .card-React {
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
