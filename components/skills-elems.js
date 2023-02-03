@@ -23,7 +23,7 @@ function Skills  () {
         </div>
         
         <div className='tech-wrap'>
-            <div className='skills-content-title'><span>JavaScript</span> 
+            <div className='skills-content-title'><span>ES6</span> 
             {/* <Image 
                     src={jsIcon}
                     width="30px"
@@ -35,7 +35,7 @@ function Skills  () {
         </div>
 
         <div className='tech-wrap'>
-            <div className='skills-content-title'><span>React </span>
+            <div className='skills-content-title'><span>React</span>
             {/* <Image 
                     src={reactIcon}
                     width="30px"
@@ -59,6 +59,42 @@ function Skills  () {
 
         <div className='tech-wrap'>
             <div className='skills-content-title'><span>Next.JS</span>
+            {/* <Image 
+                    src={otherTechIcon}
+                    width="60px"
+                    height="50px"
+                    alt="otherTech icon"
+            />  */}
+            </div>
+          
+        </div>
+        
+        <div className='tech-wrap'>
+            <div className='skills-content-title'><span>Firebase</span>
+            {/* <Image 
+                    src={otherTechIcon}
+                    width="60px"
+                    height="50px"
+                    alt="otherTech icon"
+            />  */}
+            </div>
+          
+        </div>
+
+        <div className='tech-wrap'>
+            <div className='skills-content-title'><span>TypeScript</span>
+            {/* <Image 
+                    src={otherTechIcon}
+                    width="60px"
+                    height="50px"
+                    alt="otherTech icon"
+            />  */}
+            </div>
+          
+        </div>
+
+        <div className='tech-wrap'>
+            <div className='skills-content-title'><span>Vue</span>
             {/* <Image 
                     src={otherTechIcon}
                     width="60px"
