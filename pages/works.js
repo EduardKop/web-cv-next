@@ -11,12 +11,27 @@ import MonzaMotorsports from '../img/7.jpg'
 import SnakeGame from '../img/8.jpg'
 import SecretSanta from '../img/9.png'
 import AirtableCloudflareWorker from '../img/10.png'
+import Calendar from '../img/11.png'
 
 function ExpirienceContainer () {
     
     return (
     <div className='wrapper'>
         <div className='expirience-props-container'>
+        <div className='expirience-props-element'>
+            <WorkConstructor 
+                        stack={'Next, Firebase, Node'}
+                        img={Calendar}
+                        name={'Notes Cloud Calendar'}
+                        link={'https://github.com/EduardKop/Calendar'}
+                        linkName={'link'}
+                        pageHref={'https://calendar-vert.vercel.app/'}
+                        webName={'githubPages:'}
+                        PageLinkName={'link'}
+                        pageName={'Page:'}
+                        /> 
+                        
+                </div>
         <div className='expirience-props-element'>
             <WorkConstructor 
                         stack={'Cloudflare, Node'}
