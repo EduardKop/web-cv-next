@@ -104,10 +104,9 @@
       display: flex;
       justify-content: center;
       min-height: 60px;
-      background: rgba(255, 255, 255, 0.21);
-  
-  backdrop-filter: blur(13.4px);
-  -webkit-backdrop-filter: blur(13.4px);
+      -webkit-backdrop-filter: blur(6px) saturate(180%);
+      backdrop-filter: blur(6px) saturate(180%);
+      /* border-bottom: 0.2px hsla(0,0%,100%,.1) solid; */
       position: fixed;
       width: 100%;
       z-index: 1;

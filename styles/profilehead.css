@@ -24,6 +24,17 @@
   }
 }
 
+@media screen  and (max-width: 405px){
+  .profile-info_navigation{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+    font-size: 10px;
+  }  
+  .profile-info_navigation li{
+    margin-left: 5px;
+  }
+}
 @media screen  and (min-width: 900px){
   
   .navigation_item {
@@ -49,7 +60,6 @@
 
 .profile-info_name{
   font-family: 'M-PLUS-Rounded-1cBold';
-  
     font-size: 40px;
     font-weight: bold;
     
