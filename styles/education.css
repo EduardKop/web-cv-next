@@ -1,37 +1,16 @@
-@font-face {
-    font-family: 'M-PLUS-Rounded-1cRegular';
-    src: url("../font/MPLUSRounded1c-Regular.ttf") ;
-    font-style: regular;
-    font-display: swap;
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'M-PLUS-Rounded-1cBold';
-    src: url("../font/MPLUSRounded1c-Bold.ttf") ;
-    font-style: regular;
-    font-display: swap;
-    font-weight: 300;
-}
-@media screen  and (min-width: 700px){
-    .bio-content{
-    }    
-}
+
 
 .bio-content{
-    /* font-family: 'M PLUS Rounded 1c'; */
-    font-family: 'M-PLUS-Rounded-1cRegular';
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 
 }
-.bio-container{
-}
-.bio-content-item{
-}
+
 .bio-content-title span{
     font-weight: 700;
     font-size: 20px;
     border-bottom: 3px solid ;
     border-radius: 2px;
-    font-family: 'M-PLUS-Rounded-1cBold';
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 .bio-content-item:nth-child(1){
     margin-top: 0px;}
@@ -48,7 +27,7 @@
 }
 .bio-year span{
     font-weight: 900;
-    font-family: 'M-PLUS-Rounded-1cBold';
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 
 }
 .bio-content p{
@@ -58,9 +37,7 @@ line-height: 18px;
 .bio-lines{
     margin-bottom: 30px;
 }
-.hobbie-detail {
 
-}
 .hobbie-wrap{
     margin-top: 20px;
     margin-left: 10px;

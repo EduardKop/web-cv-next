@@ -1,17 +1,16 @@
 import React from 'react'
 import WorkConstructor from '../components/work-constructor'
 
-import TelegrafBotProjectImg from '../img/2.png'
-import EnglishAppProjectImg from '../img/1.png'
-import AgencyWebAppProgectImg from '../img/3.png'
-import WeatherAPIapp from '../img/5.png'
-import GitHubScrapAPIapp from '../img/6.png'
-import Kaeltetechnik from '../img/4.png'
-import MonzaMotorsports from '../img/7.jpg'
-import SnakeGame from '../img/8.jpg'
-import SecretSanta from '../img/9.png'
-import AirtableCloudflareWorker from '../img/10.png'
-import Calendar from '../img/11.png'
+import EnglishAppProjectImg from '../img/1.webp'
+import AgencyWebAppProgectImg from '../img/3.webp'
+import WeatherAPIapp from '../img/5.webp'
+import GitHubScrapAPIapp from '../img/6.webp'
+import Kaeltetechnik from '../img/4.webp'
+import MonzaMotorsports from '../img/7.webp'
+import SnakeGame from '../img/8.webp'
+import SecretSanta from '../img/9.webp'
+import AirtableCloudflareWorker from '../img/10.webp'
+import Calendar from '../img/11.webp'
 
 function ExpirienceContainer () {
     
@@ -83,14 +82,7 @@ function ExpirienceContainer () {
 
                         /> 
                 </div>
-                {/* <div className='expirience-props-element'>
-            <WorkConstructor stack={'Telegraph,Telegram API,Node.js'}
-                        img={TelegrafBotProjectImg}
-                        link={'https://github.com/EduardKop/telegramBot-telegraf-talking-bot'}
-                        linkName={'link'}
-                        name={'Telegram Bot (talking bot)'}
-                        /> 
-                </div> */}
+             
                 <div className='expirience-props-element'>
             <WorkConstructor stack={'React , Bootstrap'}
                         img={EnglishAppProjectImg}

@@ -1,25 +1,12 @@
-@font-face {
-    font-family: 'M-PLUS-Rounded-1cRegular';
-    src: url("../font/MPLUSRounded1c-Regular.ttf") ;
-    font-style: regular;
-    font-display: swap;
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'M-PLUS-Rounded-1cBold';
-    src: url("../font/MPLUSRounded1c-Bold.ttf") ;
-    font-style: regular;
-    font-display: swap;
-    font-weight: 300;
-}
+
 .expirience-props-container{
     padding-top: 100px;
     max-width: 605px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-family: 'M-PLUS-Rounded-1cRegular';
-}
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
 @media (max-width: 579px) { 
     .expirience-props-container{
 
@@ -28,8 +15,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-family: 'M-PLUS-Rounded-1cRegular';
-    }
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
 }
 .expirience-props-element{
     min-width: 250px;

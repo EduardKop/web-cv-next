@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
-import mypic from '../img/avatar.png'
+import mypic from '../img/avatar.webp'
 
 
 function ProfileHead() {

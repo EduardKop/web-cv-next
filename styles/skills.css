@@ -1,20 +1,7 @@
-@font-face {
-    font-family: 'M-PLUS-Rounded-1cRegular';
-    src: url("../font/MPLUSRounded1c-Regular.ttf") ;
-    font-style: regular;
-    font-display: swap;
-    font-weight: 300;
-  }
-  @font-face {
-    font-family: 'M-PLUS-Rounded-1cBold';
-    src: url("../font/MPLUSRounded1c-Bold.ttf") ;
-    font-style: regular;
-    font-display: swap;
-    font-weight: 300;
-  }
+
 .skills-wrapper{
 margin-top: 20px;
-font-family: 'M-PLUS-Rounded-1cBold';
+font-family: 'M PLUS Rounded 1c', sans-serif;
 
 }
 @media(max-width: 700px){ 
@@ -22,8 +9,6 @@ font-family: 'M-PLUS-Rounded-1cBold';
   .skills-wrapper-container {
       min-width: auto;
   }
-
-
 }
 .skills-title span{
   font-weight: 700;
@@ -40,23 +25,19 @@ font-family: 'M-PLUS-Rounded-1cBold';
 }
 .skills-discription{
   margin-top: 20px;
-  font-family: 'M-PLUS-Rounded-1cRegular';
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 
 }
 
 .skills-props-container{
     display: flex;
     flex-direction: row;
-    font-family: 'M-PLUS-Rounded-1cRegular';
-    
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     margin-bottom: 30px;
 }  
 @media(max-width: 540px){ 
     .skills-props-container{
         flex-wrap: wrap;
-    }
-    .tech-wrap{
-    
     }
 }
 
@@ -72,9 +53,6 @@ font-family: 'M-PLUS-Rounded-1cBold';
         margin-top: 20px;
         align-items: flex-start;
     }
-  
-
-
 }
 .skills-content-title span{
     font-size: 15px;
@@ -84,7 +62,7 @@ font-family: 'M-PLUS-Rounded-1cBold';
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: 'M-PLUS-Rounded-1cBold';
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 
 }
 .skills-content-title img{
@@ -94,25 +72,16 @@ font-family: 'M-PLUS-Rounded-1cBold';
     max-height: 20px;
 
 }
-.skills-wrapper-container{
-    
-}
-
 .tech-wrap{
     margin: 10px;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
-
-.skills-content-discriptions{
-    
-}
 .content-discriptions-elem{
     margin-top: 5px;
     font-size: 14px;
 }
-
 .skills-slide-wrapper{
     margin-top: 30px;
 }

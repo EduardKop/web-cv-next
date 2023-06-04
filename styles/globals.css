@@ -1,25 +1,10 @@
-@font-face {
-  font-family: 'M-PLUS-Rounded-1cRegular';
-  src: url("../font/MPLUSRounded1c-Regular.ttf") ;
-  font-style: regular;
-  font-display: swap;
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'M-PLUS-Rounded-1cBold';
-  src: url("../font/MPLUSRounded1c-Bold.ttf") ;
-  font-style: regular;
-  font-display: swap;
-  font-weight: 300;
-}
+
 
   .wrapper{
     display: flex;
     justify-content: center;
   }
-  .app-contents{
-  
-  }
+ 
   .profile-info_navigation{
       display: flex;
       align-content: center;
@@ -64,8 +49,7 @@
       
 
     }
-    .navigation_item-skills{
-    }
+  
     .navigation_item-skills:hover{
       color: #1A202C;
       border-bottom: 1px solid #1A202C; 
@@ -97,7 +81,7 @@
   
   .navigation_item {
       display: flex;
-      font-family: 'M-PLUS-Rounded-1cRegular';
+      font-family: 'M PLUS Rounded 1c', sans-serif;
 
   }
   .wrapper-nav{
@@ -116,6 +100,9 @@
       flex-direction: column;
       flex-wrap: nowrap;
       justify-content: center;
+  }
+  .content{
+    font-weight: 700;
   }
   .container-app{
       display: flex;
@@ -143,6 +130,32 @@
     flex-direction: row;
     align-content: center;
     align-items: center;
-    font-family: 'M-PLUS-Rounded-1cBold';
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 
+}
+
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.17rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 0.83rem;
+  font-weight: bold;
 }

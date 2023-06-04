@@ -1,17 +1,4 @@
-@font-face {
-    font-family: 'M-PLUS-Rounded-1cRegular';
-    src: url("../font/MPLUSRounded1c-Regular.ttf") ;
-    font-style: regular;
-    font-display: swap;
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'M-PLUS-Rounded-1cBold';
-    src: url("../font/MPLUSRounded1c-Bold.ttf") ;
-    font-style: regular;
-    font-display: swap;
-    font-weight: 300;
-}
+
 @media screen  and (max-width: 600px){
     .contacts-container{
         margin-top: 15px;
@@ -19,16 +6,14 @@
 }
 .contacts-container{
  
-    font-family: 'M-PLUS-Rounded-1cRegular';
-
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 .contacts-wrap span{
     font-weight: 700;
     font-size: 20px;
     border-bottom: 3px solid ;
     border-radius: 2px;
-    font-family: 'M-PLUS-Rounded-1cBold';
-
+    font-family: 'M PLUS Rounded 1c', sans-serif;
   }
 .contacts{
    

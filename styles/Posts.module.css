@@ -1,0 +1,197 @@
+
+ 
+.posts_wrapper{
+   padding-top: 100px;
+   display: flex;
+   justify-content: center;   
+   
+}
+.card{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+   max-width: 702px;
+   cursor: pointer;
+   margin-top: 40px;
+   border-radius: 5px;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.date span{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #6E6979;
+}
+.title h2{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+   margin-top: 10px;
+}
+.subtitle{
+margin-top: 30px;
+display: flex;
+font-size: 1.1rem;
+line-height: 1.5;
+
+font-family: 'M PLUS Rounded 1c', sans-serif;
+text-align: center;
+}
+
+
+.btn{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #6E6979;
+   margin-top: 30px;
+   border: 1px solid #6E6979;
+   border-radius: 3rem;
+   padding: 0.3em 0.8em;
+}
+
+
+/* Post  */
+
+.postWrap{
+   display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.postContainer{
+   padding-top: 100px;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+   max-width: 605px;
+}
+
+.postContainer h1 {
+   font-size: 2rem;
+   font-weight: bold;
+ }
+ 
+ .postContainer h2 {
+   font-size: 1.5rem;
+   font-weight: bold;
+ }
+ 
+ .postContainer h3 {
+   font-size: 1.17rem;
+   font-weight: bold;
+ }
+ 
+ .postContainer h4 {
+   font-size: 1rem;
+   font-weight: bold;
+ }
+ 
+ .postContainer h5 {
+   font-size: 0.83rem;
+   font-weight: bold;
+ }
+ 
+ .postContainer p {
+   margin-bottom: 1rem;
+ }
+
+/* Загальні стилі для списків */
+.postContainer ul {
+   margin-bottom: 1rem;
+ }
+ .postContainer ol {
+   margin-bottom: 1rem;
+ }
+ .postContainer li {
+   margin-bottom: 0.5rem;
+ }
+ 
+ /* Загальні стилі для посилань */
+ .postContainer a {
+   text-decoration: underline;
+ }
+ 
+ .postContainer a:hover {
+   text-decoration: none;
+ }
+
+ .postContainer pre {
+   display: block;
+   font-family: monospace;
+   white-space: pre;
+   margin: 1em 0;
+   padding: 0.5em;
+   background-color: #f5f5f5;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   overflow: auto;
+ }
+
+ .postContainer code {
+   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+   font-size: 14px;
+   background-color: #f1f1f1;
+   color: #555555;
+   padding: 2px 4px;
+   display: flex;
+   align-items: flex-start;
+   border-radius: 4px;
+ }
+ .postContainer code {
+   border: 1px solid #cccccc;
+   padding: 2px 4px;
+   margin: 0 2px;
+   border-radius: 4px;
+   background-color: #f1f1f1;
+   color: #555555;
+ }
+ .postContainer code {
+   background-color: #f1f1f1;
+   color: #555555;
+   padding: 2px 4px;
+   border-radius: 4px;
+ }
+
+ .postContainer table {
+   width: 100%;
+   border-collapse: collapse;
+ }
+ 
+ .postContainer thead {
+   background-color: #f2f2f2;
+ }
+ .postContainer tr {
+   border-bottom: 1px solid #ddd;
+ }
+ .postContainer td {
+   padding: 8px;
+   text-align: left;
+ }
+
+ .postContainertd th{
+   padding: 8px;
+   text-align: left;
+ }
+
+ .postContainer tbody tr:hover {
+   background-color: #f5f5f5;
+ }
+.postContainer blockquote {
+   margin: 0;
+   padding: 0 1em;
+   border-left: 2px solid #ccc;
+   color: #666;
+   margin-left: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+.postContainer blockquote p {
+   margin: 0;
+ }
+ 
+.postContainer blockquote:before {
+   font-size: 4em;
+   line-height: 0.1em;
+   vertical-align: -0.4em;
+   margin-right: 0.25em;
+ }
+ 
+
+
+ 
