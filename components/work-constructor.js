@@ -13,6 +13,8 @@ function WorkConstructor ({name, stack, img, link, linkName, pageHref, webName, 
             alt="Picture of the author"
             width={250}
             height={140}
+            loading="lazy"
+
           />
         </div>
         <div className="expirience-container-img--discription">
