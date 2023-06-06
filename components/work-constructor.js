@@ -1,11 +1,11 @@
 import React from "react";
-import Image from 'next/image'
+import Image from 'next/image';
 
-function WorkConstructor ({name, stack, img, link, linkName, pageHref, webName, PageLinkName, pageName}) {
+function WorkConstructor({ name, stack, img, link, linkName, pageHref, webName, PageLinkName, pageName }) {
   const technologies = stack.split(', ');
 
   return (
-    <div className='expirience-container'>
+    <React.Fragment>
       <div className='expirience-container__item'>
         <div className="expirience-container-img">
           <Image
@@ -14,13 +14,13 @@ function WorkConstructor ({name, stack, img, link, linkName, pageHref, webName, 
             width={250}
             height={140}
             loading="lazy"
-
+            quality={50}
           />
         </div>
         <div className="expirience-container-img--discription">
           <div className='container__item-nameContainer'>
-            {name} 
-          </div> 
+            {name}
+          </div>
           <div className="links">
             <div className="container__item-linkContainer">
               <span>Github:</span>
@@ -33,7 +33,7 @@ function WorkConstructor ({name, stack, img, link, linkName, pageHref, webName, 
               </div>
             )}
           </div>
-            
+
           <div className='container__item-stackContainer'>
             {technologies.map((tech, index) => (
               <div key={index} className={`card card-${tech}`}>{tech}</div>
@@ -41,7 +41,7 @@ function WorkConstructor ({name, stack, img, link, linkName, pageHref, webName, 
           </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 
